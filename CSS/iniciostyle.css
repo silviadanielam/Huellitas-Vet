@@ -1,0 +1,307 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Barra de navegación */
+.navbar-huellitas {
+    background-color: #284B66;
+}
+
+/* Nombre de la veterinaria */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Icono de huellita */
+.icono-huella {
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+/* Imágenes del carrusel */
+.imagen-carrusel {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center 30%; /* 30%: ajusta qué parte de la imagen se muestra verticalmente. */
+}
+
+/* Textos del carrusel */
+.carousel-caption {
+    background-color: rgba(40, 75, 102, 0.80);
+    border-radius: 10px;
+    padding: 15px;
+
+    /* Ubicación del texto hacia la izquierda */
+    left: 7%;
+    right: auto;
+    bottom: 15%;
+    width: 35%;
+    text-align: left;
+}
+
+/* Adaptación del carrusel a celulares */
+@media (max-width: 767px) {
+
+    .imagen-carrusel {
+        height: 250px;
+        object-position: center top;
+    }
+
+    .carousel-caption {
+        left: 5%;
+        right: 5%;
+        bottom: 10px;
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .carousel-caption h2 {
+        font-size: 18px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+}
+
+/* Sección 1: ¿Quiénes somos? */
+.seccion-nosotros {
+    background-color: #F3F8FB;
+    padding: 60px 0;
+}
+
+/* Título de la sección */
+.seccion-nosotros h2 {
+    color: #284B66;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Párrafos de la sección */
+.seccion-nosotros p {
+    color: #354F60;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Imagen de la sección */
+.imagen-nosotros {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+/* Sección 2: Servicios destacados */
+.seccion-servicios {
+    background-color: #FFFFFF;
+    padding: 60px 0;
+}
+
+/* Título de la sección */
+.seccion-servicios h2 {
+    color: #284B66;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Descripción general de los servicios */
+.descripcion-servicios {
+    text-align: center;
+    color: #354F60;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+/* Tarjetas de servicios */
+.tarjeta-servicio {
+    background-color: #F3F8FB;
+    border-radius: 12px;
+    overflow: hidden; /*Evita que la imagen sobresalga sobre los bordes redondeados */
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+/* Imágenes de las tarjetas */
+.tarjeta-servicio img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contenido de las tarjetas */
+.contenido-servicio {
+    padding: 20px;
+}
+
+/* Títulos de los servicios */
+.contenido-servicio h3 {
+    color: #284B66;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Descripción de cada servicio */
+.contenido-servicio p {
+    color: #354F60;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Contenedor del botón */
+.enlace-servicios {
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* Botón para ver todos los servicios */
+.boton-servicios {
+    display: inline-block;
+    background-color: #284B66;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Cambio de color al pasar el cursor */
+.boton-servicios:hover {
+    background-color: #639AB5;
+    color: white;
+}
+
+
+/* Sección 3: ¿Por qué elegirnos? */
+.seccion-elegirnos {
+    background-color: #EDF5F9;
+    padding: 60px 0;
+}
+
+/* Título de la sección */
+.seccion-elegirnos h2 {
+    color: #284B66;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Descripción principal */
+.descripcion-elegirnos {
+    color: #354F60;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Tarjetas de características */
+.tarjeta-beneficio {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+}
+
+/* Círculo con el número */
+.numero-beneficio {
+    display: inline-block;
+    background-color: #DCEEF4;
+    color: #284B66;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Títulos de las características */
+.tarjeta-beneficio h3 {
+    color: #284B66;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Descripciones de las características */
+.tarjeta-beneficio p {
+    color: #354F60;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* Pie de página */
+.footer-huellitas {
+    background-color: #284B66;
+    color: white;
+    padding: 40px 0 20px;
+}
+
+/* Títulos del footer */
+.footer-huellitas h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Párrafos del footer */
+.footer-huellitas p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Listas del footer */
+.lista-footer {
+    list-style: none; /* elimina las viñetas */
+    padding: 0; /* elimina el espacio interior que la lista trae por defecto. */
+}
+
+/* Elementos de las listas */
+.lista-footer li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+/* Enlaces del footer */
+.footer-huellitas a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Efecto al pasar el cursor sobre un enlace */
+.footer-huellitas a:hover { /* Cambia el color de los enlaces cuando se pasa el mouse por encima */
+    color: #DCEEF4;
+    text-decoration: underline;
+}
+
+/* Nota de redes sociales */
+.nota-footer {
+    color: #DCEEF4;
+    font-style: italic;
+}
+
+/* Parte inferior del footer */
+.pie-inferior {
+    border-top: 1px solid #639AB5;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Párrafo de derechos de autor */
+.pie-inferior p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,304 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Barra de navegación */
+.navbar-huellitas {
+    background-color: #284B66;
+}
+
+/* Nombre de la veterinaria */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Icono de huellita */
+.icono-huella {
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+/* Pie de página */
+.footer-huellitas {
+    background-color: #284B66;
+    color: white;
+    padding: 40px 0 20px;
+}
+
+/* Títulos del footer */
+.footer-huellitas h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Párrafos del footer */
+.footer-huellitas p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Listas del footer */
+.lista-footer {
+    list-style: none; /* elimina las viñetas */
+    padding: 0; /* elimina el espacio interior que la lista trae por defecto. */
+}
+
+/* Elementos de las listas */
+.lista-footer li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+/* Enlaces del footer */
+.footer-huellitas a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Efecto al pasar el cursor sobre un enlace */
+.footer-huellitas a:hover { /* Cambia el color de los enlaces cuando se pasa el mouse por encima */
+    color: #DCEEF4;
+    text-decoration: underline;
+}
+
+/* Nota de redes sociales */
+.nota-footer {
+    color: #DCEEF4;
+    font-style: italic;
+}
+
+/* Parte inferior del footer */
+.pie-inferior {
+    border-top: 1px solid #639AB5;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Párrafo de derechos de autor */
+.pie-inferior p {
+    margin-bottom: 0;
+}
+
+
+/* Sección 1: Nuestros servicios */
+.seccion-todos-servicios {
+    background-color: #F3F8FB;
+    padding: 60px 0;
+}
+
+/* Título de la sección */
+.seccion-todos-servicios h1 {
+    color: #284B66;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Descripción general */
+.descripcion-servicios {
+    color: #354F60;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Tarjetas de servicios */
+.tarjeta-servicio {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+/* Imágenes de las tarjetas */
+.tarjeta-servicio img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contenido de las tarjetas */
+.contenido-servicio {
+    padding: 20px;
+}
+
+/* Títulos de los servicios */
+.contenido-servicio h3 {
+    color: #284B66;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Descripciones de los servicios */
+.contenido-servicio p {
+    color: #354F60;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* Sección 2: Horarios de atención */
+.seccion-horarios {
+    background-color: #FFFFFF;
+    padding: 60px 0;
+}
+
+/* Título de la sección */
+.seccion-horarios h2 {
+    color: #284B66;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Descripción de los horarios */
+.descripcion-horarios {
+    color: #354F60;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Tabla de horarios */
+.tabla-horarios {
+    width: 100%;
+    min-width: 550px;
+    border-collapse: collapse;
+}
+
+/* Encabezados de la tabla */
+.tabla-horarios th {
+    background-color: #284B66;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Celdas de la tabla */
+.tabla-horarios td {
+    color: #354F60;
+    padding: 15px;
+    border-bottom: 1px solid #DCEEF4;
+}
+
+/* Color de las filas pares */
+.tabla-horarios tbody tr:nth-child(even) { /* las filas pares de la tabla tendrán un color azul claro */
+    background-color: #F3F8FB;
+}
+
+/* Nota debajo de la tabla */
+.nota-horarios {
+    color: #587083;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+/* Sección 3: Registro de mascotas */
+.seccion-registro {
+    background-color: #EDF5F9;
+    padding: 60px 0;
+}
+
+/* Título de la sección */
+.seccion-registro h2 {
+    color: #284B66;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Descripción del formulario */
+.descripcion-registro {
+    color: #354F60;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Grupos de campos del formulario */
+.grupo-formulario {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+}
+
+/* Títulos de los grupos */
+.grupo-formulario legend {
+    color: #284B66;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas de los campos */
+.grupo-formulario label {
+    display: block;
+    color: #354F60;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Campos de entrada y listas desplegables */
+.grupo-formulario input,
+.grupo-formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #B8D1DF;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #354F60;
+}
+
+/* Color del borde al seleccionar un campo */
+.grupo-formulario input:focus,
+.grupo-formulario select:focus {
+    outline: 2px solid #639AB5;
+    outline-offset: 1px;
+}
+
+/* Contenedor del botón */
+.contenedor-boton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Botón de registro */
+.boton-registro {
+    background-color: #284B66;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 16px;
+}
+
+/* Apariencia del botón deshabilitado */
+.boton-registro:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+
+/* Nota del formulario */
+.nota-registro {
+    text-align: center;
+    color: #587083;
+    font-size: 13px;
+    margin-top: 15px;
+}
